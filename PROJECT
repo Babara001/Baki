@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wraper">
+        <header>
+            <div class="header1">Responsive Website</div>
+        </header>
+        <main>
+            <div class="main1">My Website</div>
+        </main>
+        <nav>
+            <div class="box">Home</div>
+            <div class="box">Admin Page</div>
+            <div class="box">AboutUs</div>
+            <div class="box">More</div>
+        </nav>
+        <div class="card">
+            <div class="ab">About Me</div>
+            <div class="slika1">
+                <div class="pof">Photo of Me</div>
+            </div>
+            <div class="prvi">Image</div>
+            <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.....</div>
+            <div class="mt">More Text</div>
+            <div class="li">Lorem Ipsum is simply dummy</div>
+            <div class="drugi">Image</div>
+            <div class="li">Lorem Ipsum is simply dummy</div>
+            <div class="broj1">Image1</div>
+            <div class="broj1">Image2</div>
+            <div class="broj1">Image3</div>
+        </div>
+        <div class="card1">
+            <div class="th  ">TITLE HEADING </div>
+            <div class="desc ">Description,Dec 7,2017</div>
+            <div class="treci ">Image</div>
+            <div class="lorem1 ">Some text...</div>
+            <div class="lorem ">It is a long established fact that a reader will be distracted by the readable
+                content of
+                a page when looking at its layout. The point of using Lorem Ipsum is thatit has a more-or-less
+                normal
+                distribution of letters, as opposed to using 'Content here </div>
+            <div class="th ">TITLE HEADING </div>
+            <div class="desc ">Description,Dec 7,2017</div>
+            <div class="treci ">Image</div>
+            <div class="lorem1 ">Some text...</div>
+            <div class="lorem ">It is a long established fact that a reader will be distracted by the readable
+                content of
+                a page when looking at its layout. The point of using Lorem Ipsum is thatit has a more-or-less
+                normal
+                distribution of letters, as opposed to using 'Content here </div>
+
+        </div>
+        <footer>Footer</footer>
+    </div>
+</body>
+
+</html>
+
+
+CSS//
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.wraper {
+  display: flex;
+  flex-wrap: wrap;
+}
+header {
+  background-color: #f5ed00;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 40px;
+}
+main {
+  background-color: #1abc9c;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 100px;
+}
+nav {
+  background-color: #333;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 4px 13px;
+  color: rgb(245, 250, 248);
+}
+.box:hover {
+  color: darkmagenta;
+  cursor: pointer;
+}
+.card {
+  flex: 30%;
+  background-color: #f1f1f1;
+}
+.prvi {
+  width: 85%;
+  height: 200px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #333;
+}
+.ab {
+  font-size: 23px;
+  font-weight: 400;
+  padding: 15px 20px;
+}
+.pof {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 15px 20px;
+}
+.prvi {
+  margin: 10px auto;
+  padding: 10px;
+}
+.text {
+  font-size: 16px;
+  padding-top: 8px;
+  margin: 10px 20px auto;
+}
+.mt {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 15px 20px;
+}
+.li {
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px 20px auto;
+}
+.drugi {
+  width: 80%;
+  height: 200px;
+  background-color: #333;
+  margin: 20px auto;
+  padding: 20px;
+}
+.broj1 {
+  width: 80%;
+  height: 100px;
+  background-color: #333;
+  margin: 20px auto;
+  padding: 20px;
+}
+.th {
+  font-size: 23px;
+  font-weight: 400;
+  padding: 15px 20px;
+}
+
+.desc {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 15px 20px;
+}
+.card1 {
+  flex: 70%;
+  background-color: rgb(252, 252, 252);
+}
+
+.treci {
+  width: 70%;
+  height: 200px;
+  background-color: #333;
+  margin: 20px auto;
+  padding: 20px;
+}
+.lorem1 {
+  font-size: 16px;
+  padding-top: 8px;
+  margin: 10px 20px auto;
+}
+.lorem {
+  font-size: 16px;
+  padding-top: 8px;
+  margin: 10px 20px auto;
+}
+footer {
+  background-color: #ddd;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 800px) {
+}
+@media screen and (min-width: 650px) {
+}
